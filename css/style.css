@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+    font-family: 'Play', sans-serif;
+}
+
+body {
+	padding-top: 80px;
+	background-color: #0a0a0a;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #202020;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(
+        45deg,
+        #FFA500,
+        #B36200
+    );
+    border-radius: 5px;
+}
+
+h2, h3 {
+	color: #FFA500;
+}
+
+footer {
+	background-color: #151515;
+	overflow: hidden;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+strong {
+	color: #FFA500;
+}
+
+.tech-head {
+	background-color: #B36200;
+    border-radius: 8px;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.tech-rev {
+    background-color: #202020;
+    color: #B36200;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.tech-head h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.site-soc {
+    letter-spacing: 5px;
+}
+
+.site-soc a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.site-soc i:hover {
+	color: #B36200;
+}
+
+nav {
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+	padding: 40px;
+}
+
+nav a.nav-link {
+	color: #FFFFFF;
+	text-decoration: none;
+    border-radius: 8px;
+}
+
+nav a.nav-link:hover {
+	transition: .2s;
+	background-color: #874a00;
+    border-radius: 8px;
+}
+
+nav a.active {
+	background-color: #B36200;
+    border-radius: 8px;
+}
+
+.navbar-brand:hover {
+    transition: all .2s ease;
+    transform: scale(0.95); 
+}
+
+.navbar {
+	background-color: #252525 !important;
+}
+
+.category-nav {
+    font-size: 14px;
+
+    letter-spacing: 1px;
+}
+
+ul a.active {
+    background-color: #B36200 !important;
+}
+
+.product:hover {
+    transition: all .2s ease;
+    transform: scale(0.95); 
+}
+
+.tech-yr span {
+    font-size: 14px;
+}
+
+textarea {
+	resize: none;
+}
+
+.custom-toggler.navbar-toggler {
+    background-color: #B36200;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+    border: solid 1px #FFA500;
+
+}
+
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 5px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    object-fit: cover;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+            filter: brightness(75%);
+}
+
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url('//i.imgur.com/TxzC70f.png') no-repeat;
+    cursor: pointer;
+}
+
+p a {
+	color: #B36200;
+    transition: 0.3s;
+}
+
+p a:hover {
+	color: #FFA500;
+}
+
+.user {
+    text-decoration: none;
+    color: #FFA500;
+    transition: 0.3s;
+}
+
+.user:hover {
+    color: #B36200;
+}
